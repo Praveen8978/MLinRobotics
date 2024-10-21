@@ -5,7 +5,7 @@ from push import PushingBallEnv
 gym.register(
     id='PushingBall',
     entry_point='push:PushingBallEnv',  # Ensure the module path is correct based on your file structure
-    max_episode_steps=50,
+    max_episode_steps=200,
 )
 
 # Test the registered environment
